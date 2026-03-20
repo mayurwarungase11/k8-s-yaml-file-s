@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: k8s
+  labels:
+      app: k8s-app
+spec:
+  containers:
+    - name: c1
+      image: durgeshkshirsagar/devops:v11
+      ports:
+        - containerPort: 80
