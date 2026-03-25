@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: c1
-      image: durgeshkshirsagar/devops:v11
+        image: nishamhjn/devops:v1
       ports:
         - containerPort: 80
